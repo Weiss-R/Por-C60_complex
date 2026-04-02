@@ -21,9 +21,8 @@ Contains excited-state absorption properties of different electronic transitions
       ```text
       CAM-B3LYP def2TZVP TD(NStates=50) SCF=(Tight) Integral=(Grid=Superfinegrid) NoSymm SCRF(Solvent=Anisole) EmpiricalDispersion=GD3BJ
 
-```md
-**File Structure:**
-**1st column**: excited state
-**2nd column**: vertical excitation energies (in eV)
-**3rd column**: oscillator strengths
+**File Structure**:
+  - **1st column**: excited sate
+  - **2nd column**: vertical excitation energy (in eV)
+  - **3rd column**: oscillator strengths
 ---
