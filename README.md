@@ -6,13 +6,22 @@ This repository contains the raw data of the (TD-)DFT calculations on the **ZnPD
 ### [geoms](geoms/) - Optimized Geometries
 XYZ files of the optimized ground (GS) and transition states (TS) with coordinates given in Angström.
 
-  - **Ground States** - computational details (Gaussian 16W)
+  - **Ground States** - Computational Details (Gaussian 16W)
     ```text
     CAM-B3LYP def2SVP OPT freq SCF=(Tight) Integral=(Grid=Superfinegrid) NoSymm SCRF(Solvent=Anisole) EmpiricalDispersion=GD3BJ
 
-  - **Transition States** - computational details (Gaussian 16W)
+  - **Transition States** - Computational Details (Gaussian 16W)
     ```text
     CAM-B3LYP def2SVP OPT=(TS,CalcFC) freq SCF=(Tight) Integral=(Grid=Superfinegrid) NoSymm SCRF(Solvent=Anisole) EmpiricalDispersion=GD3BJ
 ---
 ### [TD](TD/) - TD-DFT Results
 Contains excited-state absorption properties of different electronic transitions for **S<sub>0</sub> → S<sub>n</sub>** of **ZnPD** and **ZnPDH-C<sub>60</sub>**.
+    - Computational Details (Gaussian 16W)
+      ```text
+      CAM-B3LYP def2TZVP TD(NStates=50) SCF=(Tight) Integral=(Grid=Superfinegrid) NoSymm SCRF(Solvent=Anisole) EmpiricalDispersion=GD3BJ
+</> markdown
+**File Structure:**
+**1st column**: excited state
+**2nd column**: vertical excitation energies (in eV)
+**3rd column**: oscillator strengths
+---
