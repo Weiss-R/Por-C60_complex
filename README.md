@@ -27,3 +27,5 @@ Contains excited-state absorption properties of different electronic transitions
   - **2nd column**: vertical excitation energy (in eV)
   - **3rd column**: oscillator strengths
 ---
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19388635.svg)](https://doi.org/10.5281/zenodo.19388635)
