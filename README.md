@@ -18,9 +18,11 @@ XYZ files of the optimized ground (GS) and transition states (TS) with coordinat
 Contains excited-state absorption properties of different electronic transitions for **S<sub>0</sub> → S<sub>n</sub>** of **ZnPD** and **ZnPDH-C<sub>60</sub>**.
 
     - Computational Details (Gaussian 16W)
+     
       ```text
       CAM-B3LYP def2TZVP TD(NStates=50) SCF=(Tight) Integral=(Grid=Superfinegrid) NoSymm SCRF(Solvent=Anisole) EmpiricalDispersion=GD3BJ
 
+```md
 **File Structure:**
 **1st column**: excited state
 **2nd column**: vertical excitation energies (in eV)
