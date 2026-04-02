@@ -1,4 +1,4 @@
-# Por-C<sub>60</sub>_Complex (TD-)DFT Results
+# Por-C<sub>60</sub> Complex (TD-)DFT Results
 This repository contains the raw data of the (TD-)DFT calculations on the **ZnPD** monomer, the homodimers **ZnP-ZnP** and **C<sub>60</sub>-C<sub>60</sub>**, as well as the heterodimers **ZnP-HC<sub>60</sub>**, **ZnPH-C<sub>60</sub>** and **ZnPDH-C<sub>60</sub>**. The data are structured after method and property as shown below.
 
 ## Data in the Repository
